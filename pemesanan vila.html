@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemesanan Vila Mataram</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.6/dist/sweetalert2.all.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px blue (0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        p {
+            text-align: justify;
+        }
+        .btn {
+            display: inline-block;
+            background-color: blue;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        .btn:hover {
+            background-color: blue;
+        }
+
+        
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Selamat Datang Di vila mataram</h1>
+        <img src="vila.jpg.jpeg" alt="Vila Mataram" width="400">
+        <h1>Pemesanan Vila Mataram</h1>
+        <p>Vila Mataram adalah tempat penginapan eksklusif yang terletak di tengah kota Mataram, menawarkan fasilitas mewah dan kenyamanan bagi para tamu.</p>
+        <h2>Informasi Pemesanan</h2>
+        <p>Untuk memesan vila, silakan hubungi kami melalui kontak berikut:</p>
+        <ul>
+            <li>Nomor Telepon: (087732920630)</li>
+            <li>Email: info@vilamataram.com</li>
+        </ul>
+        <button onclick="sweetAlert()" class="btn">Pesan Sekarang</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
